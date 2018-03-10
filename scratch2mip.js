@@ -54,7 +54,7 @@
       }
     }
     
-    ext.punchLeft = function() {
+    ext.punchLeft = function(val) {
       if (ws) {
         ws.send(JSON.stringify({command: 'left', degrees: 120}));
         ws.send(JSON.stringify({command: 'right', degrees: 120}));  
@@ -120,11 +120,12 @@
             [' ', 'MiP: ' + locale[lang].move_forward, 'forward'],
             [' ', 'MiP: ' + locale[lang].move_backward, 'backward'],
             [' ', 'MiP: ' + locale[lang].set_radar_on, 'set_radar_on'],
+            [' ', 'MiP: ' + locale[lang].punch, 'punchLeft',0],
             ['h', 'MiP: ' + locale[lang].when_clear, 'when_clear'],
             ['h', 'MiP: ' + locale[lang].when_far, 'when_far'],
             ['h', 'MiP: ' + locale[lang].when_near, 'when_near'],
-            ['r', 'MiP: ' + locale[lang].get_radar, 'get_radar'],
-            [' ', 'MiP: ' + locale[lang].punch, 'punchLeft']
+            ['r', 'MiP: ' + locale[lang].get_radar, 'get_radar']
+            
         ],
         menus: {
             // radar_mode: ['radar', 'gesture']
