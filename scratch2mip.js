@@ -53,6 +53,13 @@
         ws.send(JSON.stringify({command: 'left', degrees: degrees}));
       }
     }
+    
+    ext.punchLeft = function() {
+      if (ws) {
+        ws.send(JSON.stringify({command: 'left', degrees: 120}));
+        ws.send(JSON.stringify({command: 'right', degrees: 120}));  
+      }
+    }
 
     ext.set_radar_on = function() {
       if (ws) {
