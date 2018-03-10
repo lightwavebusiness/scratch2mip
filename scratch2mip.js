@@ -123,7 +123,7 @@
             ['h', 'MiP: ' + locale[lang].when_clear, 'when_clear'],
             ['h', 'MiP: ' + locale[lang].when_far, 'when_far'],
             ['h', 'MiP: ' + locale[lang].when_near, 'when_near'],
-            ['r', 'MiP: ' + locale[lang].get_radar, 'get_radar']
+            ['r', 'MiP: ' + locale[lang].get_radar, 'get_radar'],
             ['p', 'MiP: ' + locale[lang].punch, 'punch']
         ],
         menus: {
