@@ -124,7 +124,7 @@
             ['h', 'MiP: ' + locale[lang].when_far, 'when_far'],
             ['h', 'MiP: ' + locale[lang].when_near, 'when_near'],
             ['r', 'MiP: ' + locale[lang].get_radar, 'get_radar'],
-            ['p', 'MiP: ' + locale[lang].punch, 'punchLeft']
+            [' ', 'MiP: ' + locale[lang].punch, 'punchLeft']
         ],
         menus: {
             // radar_mode: ['radar', 'gesture']
