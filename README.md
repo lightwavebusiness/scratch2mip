@@ -40,7 +40,7 @@ Ignore WARN messages. These are warning messages.
 2. Click "Open Extension URL" and paste the following URL, then click "Open".
 
 	```
-	http://champierre.github.io/scratch2mip/scratch2mip.js
+	http://lightwavebusiness.github.io/scratch2mip-leon/scratch2mip.js
 	```
 3. On Warning dialog, click "I understand, continue" if you trust scratch2mip.
 4. Turn on Wowwee MiP.
